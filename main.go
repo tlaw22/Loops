@@ -33,13 +33,14 @@ func main() {
 	}
 
 	// Range a for loop over a customer object structcture
+	// Create a struct
 	type User struct {
 		FirstName string
 		LastName  string
 		Email     string
 		Age       int
 	}
-
+	// Create a click using the customer struct
 	var users []User
 	users = append(users, User{"John", "Smith", "john@gmail.com", 31})
 	users = append(users, User{"Jill", "Smith", "jill@gmail.com", 28})
